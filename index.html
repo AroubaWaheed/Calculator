@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body class="case">
+
+    <div>
+        <div>
+
+            <h1 class="main">FIND THE SOLUTION TO ALL YOUR MATHEMATICAL PROBLEMS <sup class="message">BASIC
+                    CALCULATIONS</sup>
+            </h1>
+
+
+
+            <div class="main-body">
+
+
+
+                <div>
+
+                    <input class="input" type="text" id="answer" maxlength="26">
+
+                </div>
+
+                <div>
+
+                    <button class="btn clear" onclick="clearBtn()">C</button>
+                    <button class="btn clear" onclick="getNum('(')">(</button>
+                    <button class="btn clear" onclick="getNum(')')">)</button>
+                    <button class="btn clear" onclick="getNum('/')">/</button>
+
+                </div>
+
+                <div class="operators">
+
+                    <button class="btn" onclick="getNum('7')">7</button>
+                    <button class="btn" onclick="getNum('8')">8</button>
+                    <button class="btn" onclick="getNum('9')">9</button>
+                    <button class="btn clear" onclick="getNum('*')">x</button>
+
+
+
+                </div>
+
+                <div class="first row">
+
+                    <button class="btn" onclick="getNum('6')">6</button>
+                    <button class="btn" onclick="getNum('5')">5</button>
+                    <button class="btn" onclick="getNum('4')">4</button>
+                    <button class="btn clear" onclick="getNum('-')">-</button>
+
+
+
+                </div>
+
+                <div class="second row">
+
+                    <button class="btn" onclick="getNum('1')">1</button>
+                    <button class="btn" onclick="getNum('2')">2</button>
+                    <button class="btn" onclick="getNum('3')">3</button>
+                    <button class="btn clear" onclick="getNum('+')">+</button>
+
+
+                </div>
+
+                <div class="third row">
+
+                    <button class="btn" onclick="getNum('0')">0</button>
+                    <button class="btn" onclick="getNum('.')">.</button>
+                    <button class="equals clear" onclick="result()">=</button>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="calc-app.js"></script>
+
+</html>

@@ -1,0 +1,71 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}   
+
+body{
+    background-image: url(images/abstract-red-lines.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main{
+    text-align: center;
+    padding-top: 4%;  
+}
+
+.message{
+    font-weight: 100;
+    font-size: xx-small;
+}
+
+
+.main-body{
+    margin: 3% auto;
+    width: 22%;
+    height: 78vh;
+    background: rgb(34, 25, 25);
+    border: 1px solid rgb(0, 0, 0); 
+    border-radius: 10%;
+}
+
+.input{
+    width: 80%;
+    border-color:whitesmoke;
+    background-color: white;
+    border-radius: 40%;
+    margin : 8% 8%;
+    padding: 3% 1% 0 1%;
+    font-size: xx-large;
+    text-align: right;
+    height: 13vh;
+}
+
+.btn{
+    width: 15%;
+    padding: 1%;   
+    font-weight: bold;
+    font-size: larger;
+    margin: 6px 3px 3px 18px;
+    height: 9vh;
+    background-color: #ff6161;
+    border-color: #ff6161;
+    border-radius: 50%;
+}
+
+.equals{
+    width: 40%;
+    padding: .5%;   
+    font-weight: bold;
+    font-size: larger;
+    margin: 2px 3px 2px 10px;
+    height: 10vh;
+    border-radius: 40%;
+}
+
+.clear{
+    background-color: white;
+    border-color: white;
+}
